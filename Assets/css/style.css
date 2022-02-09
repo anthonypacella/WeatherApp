@@ -1,0 +1,193 @@
+body {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header {
+
+    background-color: rgb(63, 58, 87);
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#search-bar-container {
+
+    border-bottom: solid gray;
+    width: 25%;
+    align-content: center;
+}
+
+#search-bar-header {
+
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 5px;
+
+}
+
+#search-bar {
+    width: 100%;
+    background-color: white;
+    border: solid black;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 7px;
+    margin: 5px;
+
+}
+
+#search-button {
+
+    background-color: rgb(156, 107, 156);
+    width: 100%;
+    padding: 7px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: solid black 2px;
+}
+
+#recent-search-container {
+    width: 25%;
+    margin-left: -35px;
+}
+
+.recent-search {
+    background-color: rgb(150, 150, 150);
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: center;
+    border: solid black 2px;
+}
+
+#today-weather-info-container {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    margin: 5px;
+    width: 70%;
+    border: solid black;
+    text-align: center;
+}
+
+#five-day-forecast-container {
+    position: absolute;
+    top: 400px;
+    right: 0px;
+    margin: 5px;
+    width: 70%;
+    border: solid black;
+    color: white;
+    text-align: center;
+}
+
+.day-forecast-container {
+    
+    background-color: rgb(71, 43, 71);
+    width: 20%;
+    border: solid black;
+
+}
+
+#recent-searches {
+
+    list-style: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.results-container {
+    display: none;
+}
+
+#today-weather-info {
+    list-style: none;
+}
+
+#cityName{
+
+    padding-left: 5px;
+
+}
+
+.list-item{
+    padding: 5px;
+    margin-left: -40px;
+    margin-bottom: 5px;
+}
+
+#fiveDayForecastHeader {
+    position: absolute;
+    top: 350px;
+    right: 0px;
+    margin: 5px;
+    width: 70%;
+    display: none;
+
+}
+
+#todayIcon {
+
+    display: inline-block;
+
+}
+
+.fiveDayDate {
+
+    font-size: 20px;
+
+}
+
+.fiveDayList {
+
+    list-style: none;
+
+}
+
+.recent-search:hover {
+
+    border-width: 4px;
+    cursor: pointer;
+
+}
+
+#search-button:hover {
+
+    border-width: 4px;
+
+
+}
+
+.severe {
+
+    background-color: red;
+
+}
+
+.moderate {
+
+    background-color: yellow;
+
+}
+
+.favorable {
+
+    background-color: green;
+
+}
+
+#UVIndexValue {
+
+    padding: 3px;
+    border-radius: 5px;
+
+}
